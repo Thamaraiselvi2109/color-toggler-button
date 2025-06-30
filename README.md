@@ -1,12 +1,31 @@
-# React + Vite
+https://button-toggler-thamarai.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎨 Color Button Toggler (React App)
 
-Currently, two official plugins are available:
+This is a simple React application that renders five buttons. The background color of the buttons changes based on which one is clicked:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Clicking an **odd-numbered** button turns all **odd buttons green** and **even buttons yellow**.
+- Clicking an **even-numbered** button turns only that button **yellow**, while others stay **gray**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Features
+
+- React functional components
+- Conditional rendering based on button index
+- `useState` hook for managing dynamic button colors
+- Array mapping and logic separation for clean rendering
+
+---
+
+## 🧩 Logic Overview
+
+- **Odd Button Clicked:**  
+  → All odd buttons turn **green**  
+  → All even buttons turn **yellow**
+
+- **Even Button Clicked:**  
+  → Only the clicked button turns **yellow**  
+  → All others stay **gray**
+
+
